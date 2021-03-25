@@ -1,0 +1,47 @@
+Best Practices
+Coding Conventions
+Refactoring our code
+
+
+
+In C programming
+
+    void add()
+      {
+         int  number1;
+         int number2;
+         int sum;
+
+        // lines of code we cannot declare the variable in C programming 
+
+     }
+------------------------------------------------------------------------------------------------------------
+
+  In java
+    
+   public class Numbers 
+   {
+      public void add() {
+        int number1=10;
+        int number2=20;
+        System.out.println("The sum is ");
+        int sum=number1+number2;
+        System.out.println(sum);
+    }
+  }
+
+------------------------------------------------------------------------------------------------------------ 
+
+
+public class Numbers 
+   {
+      public void addNumbers() {
+        int number1=10;
+        int number2=20;
+        int sum=0;
+        System.out.println("The sum is ");
+         sum=number1+number2;
+        System.out.println(sum);
+    }
+  }
+-------------------------------------------------------------------------------------------------------------

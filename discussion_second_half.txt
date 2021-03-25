@@ -1,0 +1,47 @@
+
+https://www.vogella.com/tutorials/Lombok/article.html
+https://projectlombok.org/
+
+Project Lombok
+Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.
+Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.
+
+
+First go for downloading the jar file for Lombok.
+
+ https://projectlombok.org/download
+
+After download we get one executable jar file and hence we can execute the 
+jar file by simple double clicking on the downloaded jar file.
+
+It will open the Lombok application and which help to like eclipse/STS with Lombok.
+
+Just point out the location of STS/Eclipse download.
+
+So close the eclipse/STS and again restart.
+-------------------------------------------
+
+Create a maven project and add the Lombok dependency.
+
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cts.demo</groupId>
+  <artifactId>lombokdemoproject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.18</version>
+    <scope>provided</scope>
+</dependency>
+  
+  </dependencies>
+</project>
+
+
+
+
+
